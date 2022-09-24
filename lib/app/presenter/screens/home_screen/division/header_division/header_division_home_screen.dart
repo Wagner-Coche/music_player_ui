@@ -1,3 +1,4 @@
+import '../../components/header_division/row_widgets_header_home_screen_component.dart';
 import '../../components/header_division/row_icons_header_home_screen_component.dart';
 import '../../components/header_division/image_header_home_screen_component.dart';
 import 'package:flutter/material.dart';
@@ -11,11 +12,13 @@ class HeaderDivisionHomeScreen extends StatelessWidget {
       children: <Widget>[
         const ImageHeaderHomeScreenComponent(),
         Container(
+          height: MediaQuery.of(context).size.height * 0.38,
           margin: const EdgeInsets.only(left: 20, right: 20, top: 20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const <Widget>[
-              RowIconsHeaderHomeScreenComponent()
+              RowIconsHeaderHomeScreenComponent(),
+              RowWidgetsHeaderHomeScreenComponent()
             ],
           ),
         )
