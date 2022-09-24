@@ -22,7 +22,7 @@ class SignInScreenWidget extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       child: Stack(
         children: const <Widget>[
-          BodyDivisionSignInScreen()
+          BodyDivisionSignInScreen(),
         ]
       ),
     );

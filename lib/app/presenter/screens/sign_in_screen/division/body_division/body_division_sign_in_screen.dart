@@ -1,4 +1,5 @@
-import '../../components/footer_division_components/description_terms_of_service.dart';
+import 'package:music_player/app/presenter/screens/sign_in_screen/components/body_division_components/description_terms_of_service.dart';
+
 import '../../components/body_division_components/text_button_login_sign_in_screen.dart';
 import '../../components/body_division_components/buttons_sign_in_screen.dart';
 import '../../components/body_division_components/title_sign_in_screen.dart';

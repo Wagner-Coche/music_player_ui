@@ -1,3 +1,5 @@
+import 'package:music_player/app/presenter/screens/splash_screen/splash_screen.dart';
+
 import '../app/presenter/screens/sign_in_screen/sign_in_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +13,8 @@ class AppWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "/" : (context) => const SignInScreen(), 
+        "/" : (context) => const SplashScreen(),
+        "sign_in_screen/" : (context) => const SignInScreen() 
       },
     );
   }
