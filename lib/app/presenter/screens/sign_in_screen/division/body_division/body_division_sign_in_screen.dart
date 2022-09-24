@@ -1,3 +1,4 @@
+import '../../components/body_division_components/title_sign_in_screen.dart';
 import '../../components/body_division_components/ellipse_image_screen.dart';
 import '../../components/body_division_components/background_color_screen.dart';
 import 'package:flutter/material.dart';
@@ -8,9 +9,19 @@ class BodyDivisionSignInScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: const <Widget>[
-        BackGroundColorScreen(),
-        EllipseImageScreen()
+      children: <Widget>[
+        const BackGroundColorScreen(),
+        const EllipseImageScreen(),
+        Container(
+          height: MediaQuery.of(context).size.height,
+          margin: const EdgeInsets.only(right: 20, left: 20, top: 160),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const <Widget>[
+              TitleSignInScreen()
+            ],
+          ),
+        )
       ]
     );
   }
