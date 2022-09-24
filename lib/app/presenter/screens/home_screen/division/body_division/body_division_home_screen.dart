@@ -1,3 +1,4 @@
+import '../../components/body_division/row_widget_body_home_screen_component.dart';
 import '../../components/body_division/popular_music_list_body_home_screen_component.dart';
 import '../../components/body_division/text_popular_body_home_screen_component.dart';
 import '../../components/body_division/row_buttons_body_home_screen_component.dart';
@@ -32,6 +33,7 @@ class BodyDivisionHomeScreen extends StatelessWidget {
               ),
             ),
           ),
+          const RowWidgetBodyHomeScreenComponent()
         ],
       )
     );

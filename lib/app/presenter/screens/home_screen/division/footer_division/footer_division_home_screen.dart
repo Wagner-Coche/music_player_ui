@@ -13,7 +13,7 @@ class FooterDivisionHomeScreen extends StatelessWidget {
       child: Column(
         children: const <Widget>[
           LineMusicPlayerFooterHomeScreenComponent(),
-          RowWidgetsMusicPlayerFooterHomeScreenComponent()
+          RowWidgetsMusicPlayerFooterHomeScreenComponent(),
         ],
       ),
     );
