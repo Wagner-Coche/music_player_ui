@@ -1,3 +1,4 @@
+import '../app/presenter/screens/sign_in_screen/sign_in_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
@@ -10,7 +11,7 @@ class AppWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "/" : (context) => Container(), 
+        "sign_in_screen/" : (context) => const SignInScreen(), 
       },
     );
   }

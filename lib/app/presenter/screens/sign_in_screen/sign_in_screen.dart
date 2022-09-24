@@ -5,8 +5,17 @@ class SignInScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(),
+    return const Scaffold(
+      body: SignInScreenWidget(),
     );
+  }
+}
+
+class SignInScreenWidget extends StatelessWidget {
+  const SignInScreenWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
