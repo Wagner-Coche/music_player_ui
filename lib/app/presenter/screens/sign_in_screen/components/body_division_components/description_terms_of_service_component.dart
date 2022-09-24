@@ -1,8 +1,8 @@
 import '../../../../utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 
-class DescriptionTermsOfServices extends StatelessWidget {
-  const DescriptionTermsOfServices({Key? key}) : super(key: key);
+class DescriptionTermsOfServicesComponent extends StatelessWidget {
+  const DescriptionTermsOfServicesComponent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

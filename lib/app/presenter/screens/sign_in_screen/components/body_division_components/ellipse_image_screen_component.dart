@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class EllipseImageScreen extends StatelessWidget {
-  const EllipseImageScreen({Key? key}) : super(key: key);
+class EllipseImageScreenComponent extends StatelessWidget {
+  const EllipseImageScreenComponent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

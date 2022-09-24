@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ButtonsSignInScreen extends StatelessWidget {
-  const ButtonsSignInScreen({Key? key}) : super(key: key);
+class ButtonsSignInScreenComponent extends StatelessWidget {
+  const ButtonsSignInScreenComponent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TitleSignInScreen extends StatelessWidget {
-  const TitleSignInScreen({Key? key}) : super(key: key);
+class TitleSignInScreenComponent extends StatelessWidget {
+  const TitleSignInScreenComponent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

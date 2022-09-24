@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TextButtonLoginSignInScreen extends StatelessWidget {
-  const TextButtonLoginSignInScreen({Key? key}) : super(key: key);
+class TextButtonLoginSignInScreenComponent extends StatelessWidget {
+  const TextButtonLoginSignInScreenComponent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

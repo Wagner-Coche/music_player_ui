@@ -1,8 +1,8 @@
 import '../../../../utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 
-class BackGroundColorScreen extends StatelessWidget {
-  const BackGroundColorScreen({Key? key}) : super(key: key);
+class BackGroundColorScreenComponent extends StatelessWidget {
+  const BackGroundColorScreenComponent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
