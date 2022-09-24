@@ -1,3 +1,4 @@
+import '../../components/body_division_components/buttons_sign_in_screen.dart';
 import '../../components/body_division_components/title_sign_in_screen.dart';
 import '../../components/body_division_components/ellipse_image_screen.dart';
 import '../../components/body_division_components/background_color_screen.dart';
@@ -18,7 +19,8 @@ class BodyDivisionSignInScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
-              TitleSignInScreen()
+              TitleSignInScreen(),
+              ButtonsSignInScreen()
             ],
           ),
         )
