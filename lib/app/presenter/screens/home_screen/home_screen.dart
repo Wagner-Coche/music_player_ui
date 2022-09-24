@@ -1,5 +1,6 @@
-import '../../utils/colors_utils.dart';
+import '../home_screen/division/body_division/body_division_home_screen.dart';
 import '../home_screen/division/header_division/header_division_home_screen.dart';
+import '../../utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -25,7 +26,8 @@ class HomeScreenWidget extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: const <Widget>[
-            HeaderDivisionHomeScreen()
+            HeaderDivisionHomeScreen(),
+            BodyDivisionHomeScreen()
           ],
         )
       ),
