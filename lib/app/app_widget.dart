@@ -11,7 +11,7 @@ class AppWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        "sign_in_screen/" : (context) => const SignInScreen(), 
+        "/" : (context) => const SignInScreen(), 
       },
     );
   }
