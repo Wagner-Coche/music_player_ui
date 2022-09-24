@@ -1,6 +1,6 @@
-import 'package:music_player/app/presenter/screens/splash_screen/splash_screen.dart';
-
+import '../app/presenter/screens/home_screen/home_screen.dart';
 import '../app/presenter/screens/sign_in_screen/sign_in_screen.dart';
+import '../app/presenter/screens/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
@@ -14,7 +14,8 @@ class AppWidget extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/" : (context) => const SplashScreen(),
-        "sign_in_screen/" : (context) => const SignInScreen() 
+        "sign_in_screen/" : (context) => const SignInScreen(),
+        "home_screen/" : (context) => const HomeScreen()
       },
     );
   }

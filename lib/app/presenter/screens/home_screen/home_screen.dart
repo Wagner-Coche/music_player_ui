@@ -1,3 +1,5 @@
+import '../../utils/colors_utils.dart';
+import '../home_screen/division/header_division/header_division_home_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -6,7 +8,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      backgroundColor: ColorsUtils.colorsUtils.blackColor,
+      body: const HomeScreenWidget(),
     );
   }
 }
@@ -16,6 +19,16 @@ class HomeScreenWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SizedBox(
+      height: MediaQuery.of(context).size.height,
+      width: MediaQuery.of(context).size.width,
+      child: SingleChildScrollView(
+        child: Column(
+          children: const <Widget>[
+            HeaderDivisionHomeScreen()
+          ],
+        )
+      ),
+    );
   }
 }
