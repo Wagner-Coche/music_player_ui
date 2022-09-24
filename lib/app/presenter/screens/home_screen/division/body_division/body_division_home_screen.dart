@@ -1,3 +1,4 @@
+import '../../components/body_division/discographys_cards_body_home_screen_component.dart';
 import '../../components/body_division/row_widget_body_home_screen_component.dart';
 import '../../components/body_division/popular_music_list_body_home_screen_component.dart';
 import '../../components/body_division/text_popular_body_home_screen_component.dart';
@@ -33,7 +34,28 @@ class BodyDivisionHomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          const RowWidgetBodyHomeScreenComponent()
+          const RowWidgetBodyHomeScreenComponent(),
+          SizedBox(
+            child: SingleChildScrollView(
+              physics: const BouncingScrollPhysics(),
+              scrollDirection: Axis.horizontal,
+              child: Container(
+                margin: const EdgeInsets.only(left: 20, right: 20, top: 25, bottom: 15),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: const <Widget>[
+                    DiscographyCardsBodyHomeScreenComponent(image: "assets/images/264x264 1.png", title: "Music of...", year: 2021),
+                    SizedBox(width: 22),
+                    DiscographyCardsBodyHomeScreenComponent(image: "assets/images/264x264 1 (1).png", title: "Everyday...", year: 2019),
+                    SizedBox(width: 22),
+                    DiscographyCardsBodyHomeScreenComponent(image: "assets/images/264x264 1 (2).png", title: "A Head...", year: 2015),
+                    SizedBox(width: 22),
+                    DiscographyCardsBodyHomeScreenComponent(image: "assets/images/264x264 1 (3).png", title: "The Weekend...", year: 2017)
+                  ],
+                ),
+              )
+            ),
+          ),
         ],
       )
     );
