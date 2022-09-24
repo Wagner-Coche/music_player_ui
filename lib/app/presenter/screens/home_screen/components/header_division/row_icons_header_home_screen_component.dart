@@ -10,7 +10,9 @@ class RowIconsHeaderHomeScreenComponent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
         IconButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).pushReplacementNamed("sign_in_screen/");
+          },
           splashColor: Colors.grey,
           icon: Icon(Icons.arrow_back_rounded, color: ColorsUtils.colorsUtils.whiteColor, size: 30)),
         IconButton(

@@ -8,7 +8,9 @@ class TextButtonLoginSignInScreenComponent extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(top: 30),
       child: TextButton(
-        onPressed: () {}, 
+        onPressed: () {
+          Navigator.of(context).pushReplacementNamed("home_screen/");
+        }, 
         child: const Text(
           "Log in", 
           style: TextStyle(
