@@ -8,4 +8,5 @@ class ColorsUtils {
   Color blackColor = Colors.black;
   Color black12 = Colors.black12;
   Color blueColor = Colors.blue;
+  Color whiteColor = Colors.white;
 }
