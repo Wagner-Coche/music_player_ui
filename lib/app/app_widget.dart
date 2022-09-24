@@ -8,7 +8,10 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       title: "Music Player",
       debugShowCheckedModeBanner: false,
-      home: Container(),
+      initialRoute: "/",
+      routes: {
+        "/" : (context) => Container(), 
+      },
     );
   }
 }
