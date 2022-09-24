@@ -1,3 +1,4 @@
+import '../../components/footer_division/row_widgets_music_player_footer_home_screen_component.dart';
 import '../../components/footer_division/line_music_player_footer_home_screen_component.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,8 @@ class FooterDivisionHomeScreen extends StatelessWidget {
       decoration: const BoxDecoration(color: Colors.black),
       child: Column(
         children: const <Widget>[
-          LineMusicPlayerFooterHomeScreenComponent()
+          LineMusicPlayerFooterHomeScreenComponent(),
+          RowWidgetsMusicPlayerFooterHomeScreenComponent()
         ],
       ),
     );
