@@ -1,3 +1,4 @@
+import '../home_screen/division/footer_division/footer_division_home_screen.dart';
 import '../home_screen/division/body_division/body_division_home_screen.dart';
 import '../home_screen/division/header_division/header_division_home_screen.dart';
 import '../../utils/colors_utils.dart';
@@ -11,6 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: ColorsUtils.colorsUtils.blackColor,
       body: const HomeScreenWidget(),
+      bottomNavigationBar: const FooterDivisionHomeScreen(),
     );
   }
 }
@@ -27,7 +29,7 @@ class HomeScreenWidget extends StatelessWidget {
         child: Column(
           children: const <Widget>[
             HeaderDivisionHomeScreen(),
-            BodyDivisionHomeScreen()
+            BodyDivisionHomeScreen(),
           ],
         )
       ),
