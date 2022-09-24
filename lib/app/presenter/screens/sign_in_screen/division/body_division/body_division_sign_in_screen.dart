@@ -1,3 +1,4 @@
+import '../../components/body_division_components/text_button_login_sign_in_screen.dart';
 import '../../components/body_division_components/buttons_sign_in_screen.dart';
 import '../../components/body_division_components/title_sign_in_screen.dart';
 import '../../components/body_division_components/ellipse_image_screen.dart';
@@ -20,7 +21,8 @@ class BodyDivisionSignInScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
               TitleSignInScreen(),
-              ButtonsSignInScreen()
+              ButtonsSignInScreen(),
+              TextButtonLoginSignInScreen()
             ],
           ),
         )
